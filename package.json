@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Hello ! Welcome to spreading-seeds landing page If you already have nodejs on your computer use the commande line \"npm i\" Otherwise you have to download it. You can find the last version of Nodejs on https://www.nodejs.org",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GueltonGeorges1995/spreading-seeds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GueltonGeorges1995/spreading-seeds/issues"
+  },
+  "homepage": "https://github.com/GueltonGeorges1995/spreading-seeds#readme"
+}

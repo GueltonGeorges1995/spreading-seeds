@@ -10798,4 +10798,126 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.logo-size {
+  width: 52px;
+  height: 52px;
+}
+
+.navbar-brand {
+  text-align: left;
+  font: Bold Italic 42px/52px Overlock;
+  letter-spacing: 0px;
+  color: #1A2322;
+  text-shadow: 3px 5px 15px #00000033;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font: Bold 24px/29px Overlock !important;
+  letter-spacing: 0px !important;
+  color: #1A2322 !important;
+}
+
+.mr-6 {
+  margin-right: 6rem;
+}
+
+nav {
+  -webkit-box-shadow: 0px 15px 20px #00000033;
+          box-shadow: 0px 15px 20px #00000033;
+}
+
+.header-background {
+  height: 100vh;
+  background-image: url("../images/HeroBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.header-content {
+  padding-top: 346px;
+  padding-left: 259px;
+}
+
+.para-btn-regisrer {
+  font: Bold 32px/50px Overlock;
+  letter-spacing: 0px;
+  color: #1A2322;
+  text-shadow: 3px 5px 10px #00000033;
+}
+
+.btn-register {
+  background: #94C120 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 10px 15px 30px #00000029;
+          box-shadow: 10px 15px 30px #00000029;
+  border-radius: 30px 0px 30px 30px;
+  height: 61px;
+  width: 324px;
+  border: none;
+}
+
+.text-btn-register {
+  text-align: center;
+  font: Bold 24px/29px Overlock;
+  letter-spacing: 0px;
+  color: #1A2322;
+  text-shadow: 10px 30px 30px #00000029;
+  opacity: 1;
+  text-decoration: none !important;
+}
+
+.text-btn-register:hover {
+  color: #fff;
+}
+
+.pt-14 {
+  padding-top: 14rem;
+}
+
+.pl-12 {
+  padding-left: 12rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .mr-6 {
+    margin-right: 0;
+  }
+  .brand-mobile {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .logo-size {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-brand {
+    font: Bold Italic 25px/35px Overlock;
+  }
+  .nav-link {
+    font: Bold 20px/25px Overlock !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-content {
+    padding-top: 5rem;
+    padding-left: 0;
+  }
+  .header-content-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */

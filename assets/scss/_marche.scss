@@ -29,6 +29,7 @@
 .mt-10 {
     margin-top: 10rem;
 }
+// Fait en sorte de mettre les icones au dessus de la div
 .icon-search-marche {
     top: -60px;
     left: 40px;
@@ -48,6 +49,7 @@
     left: -35px;
 }
 
+// enlève l'image et centre les elements
 @media screen and (max-width: 1200px) {
     .img-marche {
         display: none;
@@ -64,7 +66,7 @@
     }
 }
 
-
+// réinitialise la taille et la position des elements et enlèves les icones
 @media screen and (max-width: 1000px) {
     .bg-marche {
         background: #A6BE26 0% 0% no-repeat;

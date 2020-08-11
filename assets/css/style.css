@@ -11019,4 +11019,51 @@ nav {
   top: -35px;
   left: -35px;
 }
+
+@media screen and (max-width: 1200px) {
+  .img-marche {
+    display: none;
+  }
+  .mobile-marche-d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bg-icon-middle-marche {
+    top: 0px;
+  }
+  .mt-10 {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bg-marche {
+    background: #A6BE26 0% 0% no-repeat;
+    -webkit-box-shadow: 0px 30px 30px #00000029;
+            box-shadow: 0px 30px 30px #00000029;
+    border-radius: 30px 0px 30px 30px;
+    width: auto;
+    height: auto;
+    position: static !important;
+  }
+  .mobile-row {
+    position: static !important;
+  }
+  .mb-mobile-3 {
+    margin-bottom: 3rem;
+  }
+  .icon-search-marche {
+    display: none;
+  }
+  .icon-leaf-1-marche {
+    display: none;
+  }
+  .icon-plus-1-marche {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

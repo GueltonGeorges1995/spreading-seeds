@@ -10833,7 +10833,8 @@ nav {
   background-image: url("../images/HeroBackground.png");
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  -webkit-box-shadow: 0px 30px 30px #00000033;
+          box-shadow: 0px 30px 30px #00000033;
 }
 
 .header-content {
@@ -10918,6 +10919,50 @@ nav {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+  }
+}
+
+.title-apropos {
+  text-align: center;
+  font: Bold 32px/39px Overlock;
+  letter-spacing: 0px;
+  color: #1B2920;
+  text-shadow: 2px 5px 10px #00000033;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.text-apropos {
+  text-align: left;
+  font: Regular 18px/27px Roboto;
+  letter-spacing: 0px;
+  color: #1B2920;
+}
+
+.title-icones-apropos {
+  text-align: center;
+  font: Bold 32px/39px Overlock;
+  letter-spacing: 0px;
+  color: #1B2920;
+  text-shadow: 2px 5px 10px #00000033;
+}
+
+.text-icon-apropos {
+  font: Bold 24px/29px Overlock;
+  letter-spacing: 0px;
+  color: #1B2920;
+}
+
+.icon-apropos {
+  width: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .title-icones-apropos {
+    margin-top: 5rem;
+  }
+  .mt-icones {
+    margin-top: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

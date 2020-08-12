@@ -17,6 +17,7 @@
     font: Bold 24px/29px Overlock !important;
     letter-spacing: 0px !important;
     color: #1A2322 !important;
+    text-transform: uppercase;
 }
 .mr-6 {
     margin-right: 6rem;
@@ -31,11 +32,18 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0px 30px 30px #00000033;
+    // width: 100vw;
+    background-size: cover;
 }
 
 .header-content {
     padding-top: 346px;
     padding-left: 259px;
+}
+
+.btn-fr {
+    font-size: 1rem !important;
+    margin-left: 1rem;
 }
 // style sur le p au dessus du bouton
 .para-btn-regisrer {
@@ -106,6 +114,14 @@ nav {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .header-background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mt-3-mobile {
+        margin-top: 3rem;
     }
 }
 

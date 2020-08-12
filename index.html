@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spreading Seeds</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -42,7 +43,7 @@
                         <a class="nav-link" href="#">se connecter</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle btn-fr" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         FR
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -58,7 +59,7 @@
                 <div class="header-content-mobile">
                     <p class="para-btn-regisrer"> <span>Rejoignez notre communauté pour</span><br> <span>échanger des graines !</span></p>
                 </div>
-                <div class="header-content-mobile">
+                <div class="header-content-mobile mt-3-mobile">
                     <button class="btn-register"><a class="text-btn-register" href="">Inscrivez-vous maintenant !</a></button>
                 </div>
             </div> 
@@ -70,13 +71,13 @@
 
     <!-- à propos -->
 
-    <section class="mt-5 container">
+    <section class="mt-6 container">
         <h2 class="title-apropos pt-5">à propos de spreading seeds</h2>
         <p class="mt-5 mx-5 text-apropos">Spreading Seeds est une plateforme d’échange de graines active en Belgique. Son but est de rassembler sur une même plateforme les passionnés de jardinage qui cherchent à échanger des graines. Spreading Seeds est également un point de rendez-vous pour les personnes qui veulent partager des photos de leurs plants. Pour nous, il n’est pas possible de créer une communauté sans permettre à ses membres d’interagir entre eux !</p>
         <div class="row mt-5">
             <div class="col-xl-6 col-lg-12">
                 <h3 class="title-icones-apropos">Nos graines sont</h3>
-                <div class="row mt-5">
+                <div class="row mt-3">
                     <div class="col-xl-4 text-center mt-icones">
                         <img class="icon-apropos" src="./assets/icons/earth.svg" alt="">
                         <p class="text-icon-apropos">Biologique</p>
@@ -86,21 +87,29 @@
                         <p class="text-icon-apropos">Libres de droit</p>
                     </div>
                     <div class="col-xl-4 text-center mt-icones">
-                        <img class="icon-apropos" src="./assets/icons/earth.svg" alt="">
+                        <img class="icon-apropos" src="./assets/icons/Fleches_qui_tournent.svg" alt="" style="height: 6.25rem;">
                         <p class="text-icon-apropos">Reproductibles</p>
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-12">
                 <h3 class="title-icones-apropos">Pourquoi échanger des graines ?</h3>
-                <div class="row mt-5">
+                <div class="row mt-3">
                     <div class="col-xl-4 text-center mt-icones">
                         <img class="icon-apropos" src="./assets/icons/people-carry.svg" alt="">
                         <p class="text-icon-apropos">Faire partie d'une communauté passionnée</p>
                     </div>
                     <div class="col-xl-4 text-center mt-icones">
-                        <p class="text-icon-apropos">Protéger l'environnement et créer de la biodiversité</p>
-                        <img class="icon-apropos" src="./assets/icons/shield-shaded.svg" alt="" >
+                        <!-- sur ecran normal caché mobile -->
+                        <p class="text-icon-apropos d-none-mobile">Protéger l'environnement et créer de la biodiversité</p>
+                        <img class="icon-apropos d-none-mobile" src="./assets/icons/shield-shaded.svg" alt="" >
+                        <!-- caché sur ecran normal visible sur mobile -->
+                        <div class="d-none d-show-mobile">
+                            <img class="icon-apropos" src="./assets/icons/shield-shaded.svg" alt="" >
+                            <p class="text-icon-apropos">Protéger l'environnement et créer de la biodiversité</p>
+                        </div>
+                        
+                        
                     </div>
                     <div class="col-xl-4 text-center mt-icones">
                         <img class="icon-apropos" src="./assets/icons/piggy-bank.svg" alt="">
@@ -116,54 +125,46 @@
     <!-- Fin section à propos  -->
 
     <!-- section marché -->
-    <section class="mt-5">
-        <div class="overflow-hidden mobile-marche-d-flex">
-            <div class="position-absolute bg-marche container">
+    <section class="overflow-hidden box-shadow-marche">
+        <div class="row ">
+            <div class="col-xl-6 col-lg-12 bg-marche mx-0 px-0">
                 <h2 class="title-marche mt-5 text-center">MARCHE</h2>
                 <p class=" text-left mx-5 mt-5">
                     Sur Spreading Seeds, tous les échanges se font directement entre les membres. Le Marché leur permet de se retrouver et de déterminer ce qu’ils souhaitent échanger. 
                 </p>
                 <p class="text-left ml-5 mt-3">Comment faire ?</p>
-                <div class="container mt-10">
-                    <div class="row d-flex justify-content-around position-absolute mobile-row">
-                        <div class="col-lg-3 col-sm-7 col-12 mb-mobile-3">
+                <div class="container mt-5 pb-5-mobile">
+                    <div class="row mx-3">
+                        <div class="col-xl-4 text-center mt-5 reset-m-mobile">
                             <div class="bg-icon-marche p-2">
-                                <div class="position-absolute">
-                                    <img class="position-relative icon-search-marche" src="./assets/icons/search.svg" alt="">
-                                </div>
-                                <p class="text-center mt-5 position-relative">Rechercher à travers le catalogue du site pour trouver ce qui vous manque</p>
+                                <img src="./assets/icons/search.svg" alt="" class="icon-search-marche-size">
+                                <p class="text-marche-icon">Rechercher à travers le catalogue du site pour trouver ce qui vous manque</p>
                             </div>
                         </div>
-
-                        <div class="col-lg-3 position-relative bg-icon-middle-marche col-sm-7 col-12 mb-mobile-3">
-                            <div class="bg-icon-marche p-2" >
-                                <div class="position-absolute">
-                                    <img src="./assets/icons/leaf.svg" alt="" class="position-relative icon-leaf-1-marche">
-                                    <img src="./assets/icons/plus.svg" alt="" class="position-relative icon-plus-1-marche">
-                                </div>
-                                <p class="text-center mt-5">
-                                    Créer des annonces pour des graines que vous voudriez mettre à l’échange
-                                </p>
-                            </div>
-                            
-                        </div>
-                        <div class="col-lg-3 col-sm-7 col-12 mb-mobile-3">
+                        <div class="col-xl-4 text-center my-mobile">
                             <div class="bg-icon-marche p-2">
-                                <div class="position-absolute">
-                                    <img src="./assets/icons/leaf.svg" alt="" class="position-relative icon-leaf-1-marche">
-                                    <img src="./assets/icons/exclamation.svg" alt="" class="position-relative icon-plus-1-marche">
-                                </div>
-                                <p class="text-center mt-5">
-                                    Créer des annonces pour des graines que vous recherchez
-                                </p>
+                                <img src="./assets/icons/leaf.svg" alt="" class="icon-leaf-marche-size">
+                                <div><img src="./assets/icons/plus.svg" alt="" class="icon-plus-marche-size"></div>
+                                
+                                <p class="text-marche-icon mt--1">Créer des annonces pour des graines que vous voudriez mettre à l’échange</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 text-center mt-5 reset-m-mobile">
+                            <div class="bg-icon-marche p-2">
+                                <img src="./assets/icons/leaf.svg" alt="" class="icon-leaf-marche-size">
+                                <div><img src="./assets/icons/exclamation.svg" alt="" class="icon-plus-exclamation-size"></div>
+                                <p class="text-marche-icon mt--1">Rechercher à travers le catalogue du site pour trouver ce qui vous manque</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <img class="img-marche" src="./assets/images/Marketplace.png" alt="">
+            <div class="col-xl-6 mx-0 px-0 col-lg-12 d-none-mobile">
+                <img src="./assets/images/MarketplaceSansEspaceBlanc.jpg" class="img-fluid" alt="">
+            </div>
         </div>
     </section>
+
     <!-- fin section marché -->
 
 
@@ -215,7 +216,7 @@
                 <img src="./assets/icons/md-arrow-dropright.svg" alt="" class="rotate-145">
             </div>
             <div class="col-lg-4 text-center">
-                <img src="./assets/icons/search green.svg" alt="">
+                <img src="./assets/icons/Fleches_qui_tournent.svg" alt="">
                 <p class="text-icon-commentCaMarche">Recommencez !</p>
             </div>
             <div class="col-lg-4 text-left">

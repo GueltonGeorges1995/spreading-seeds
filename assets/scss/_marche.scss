@@ -1,17 +1,15 @@
+
+.box-shadow-marche{
+    box-shadow: 0px 30px 30px #00000029
+}
 .bg-marche {
     background: #A6BE26 0% 0% no-repeat;
     box-shadow: 0px 30px 30px #00000029;
     border-radius: 30px 0px 30px 30px;
-    width: 955px;
-    height: 709px;
+   
     z-index: 2;
 }
 
-.img-marche {
-    position: relative;
-    right: -850px;
-    top: -14px;
-}
 .title-marche {
     font: Bold 32px/39px Overlock;
     letter-spacing: 0px;
@@ -25,71 +23,52 @@
     box-shadow: 5px 10px 15px #00000029;
     border-radius: 20px 0px 20px 20px;
 }
-
-.mt-10 {
-    margin-top: 10rem;
+.mt--1 {
+    margin-top: -1rem;
 }
+.icon-search-marche-size {
+    width: 4.375rem;
+    height: 4.375rem;
+    margin-top: -3rem;
+}
+.icon-leaf-marche-size {
+    width: 5.969rem;
+    height: 4.625rem;
+    margin-top: -3rem;
+}
+.icon-plus-marche-size {
+    width: 1.99rem;
+    height: 1.742rem;
+    margin-top: -4.5rem;
+    margin-left: 2rem;
+}
+.icon-plus-exclamation-size {
+    width: 1.99rem;
+    height: 1.742rem;
+    margin-top: -4.5rem;
+    margin-left: 2rem;
+}
+.text-marche-icon {
+    font-size: 1.125rem/1.375rem;
+    letter-spacing: 0px;
+    color: #1B2920;
+}
+
+
 // Fait en sorte de mettre les icones au dessus de la div
-.icon-search-marche {
-    top: -60px;
-    left: 40px;
-}
-
-.bg-icon-middle-marche {
-    top: -40px;
-}
-
-.icon-leaf-1-marche {
-    top: -60px;
-    left: 40px;
-}
-
-.icon-plus-1-marche {
-    top: -35px;
-    left: -35px;
-}
 
 // enlève l'image et centre les elements
 @media screen and (max-width: 1200px) {
-    .img-marche {
-        display: none;
+    .reset-m-mobile {
+        margin-top: 0 !important;
     }
-    .mobile-marche-d-flex {
-        display: flex;
-        justify-content: center;
+    .my-mobile {
+        margin: 3rem 0;
     }
-    .bg-icon-middle-marche {
-        top: 0px;
+    .pb-5-mobile {
+        padding-bottom: 5rem;
     }
-    .mt-10 {
-        margin-top: 2rem;
-    }
+    
+
 }
 
-// réinitialise la taille et la position des elements et enlèves les icones
-@media screen and (max-width: 1000px) {
-    .bg-marche {
-        background: #A6BE26 0% 0% no-repeat;
-        box-shadow: 0px 30px 30px #00000029;
-        border-radius: 30px 0px 30px 30px;
-        width: auto;
-        height: auto;
-        position: static !important;
-        
-    }
-    .mobile-row {
-        position: static !important;
-    }
-    .mb-mobile-3 {
-        margin-bottom: 3rem;
-    }
-    .icon-search-marche {
-        display: none;
-    }
-    .icon-leaf-1-marche {
-        display: none;
-    }
-    .icon-plus-1-marche {
-        display: none;
-    }
-}

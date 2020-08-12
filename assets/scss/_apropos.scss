@@ -33,6 +33,10 @@
 .icon-apropos {
     width: 100px;
 }
+
+.mt-6 {
+    margin-top: 6rem;
+}
 // espance entre les icones sur mobiles
 @media screen and (max-width: 1200px) {
     .title-icones-apropos {
@@ -40,5 +44,11 @@
     }
     .mt-icones {
         margin-top: 3rem;
+    }
+    .d-none-mobile {
+        display: none;
+    }
+    .d-show-mobile {
+        display: inline !important;
     }
 }

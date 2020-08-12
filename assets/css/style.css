@@ -11243,6 +11243,19 @@ nav {
   margin-top: 6rem;
 }
 
+.btn-rs {
+  border: none;
+  background: #A6BE26 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 10px 15px 30px #00000029;
+          box-shadow: 10px 15px 30px #00000029;
+  border-radius: 30px 0px 30px 30px;
+}
+
+.btn-rs a {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 1200px) {
   .m-text-rs {
     margin: 1rem !important;

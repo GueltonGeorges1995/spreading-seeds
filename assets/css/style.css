@@ -10800,13 +10800,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .logo-size {
-  width: 52px;
-  height: 52px;
+  width: 4rem;
 }
 
 .navbar-brand {
   text-align: left;
-  font: Bold Italic 2.688rem/3.25rem Overlock;
+  font: Bold Italic 2.450rem/3rem Overlock;
   letter-spacing: 0px;
   color: #1A2322;
   text-shadow: 3px 5px 15px #00000033;
@@ -10814,7 +10813,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .nav-link {
-  font: Bold 24px/29px Overlock !important;
+  font: Bold 1.188rem/1.5rem Overlock !important;
   letter-spacing: 0px !important;
   color: #1A2322 !important;
   text-transform: uppercase;
@@ -10978,8 +10977,12 @@ nav {
   width: 100px;
 }
 
-.mt-6 {
-  margin-top: 6rem;
+.mt-5rem {
+  margin-top: 5rem;
+}
+
+.mt--1 {
+  margin-top: -1rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -11031,28 +11034,20 @@ nav {
 }
 
 .icon-search-marche-size {
-  width: 4.375rem;
-  height: 4.375rem;
-  margin-top: -3rem;
+  margin-top: -4rem;
 }
 
 .icon-leaf-marche-size {
-  width: 5.969rem;
-  height: 4.625rem;
-  margin-top: -3rem;
+  margin-top: -4rem;
 }
 
 .icon-plus-marche-size {
-  width: 1.99rem;
-  height: 1.742rem;
-  margin-top: -4.5rem;
+  margin-top: -5rem;
   margin-left: 2rem;
 }
 
 .icon-plus-exclamation-size {
-  width: 1.99rem;
-  height: 1.742rem;
-  margin-top: -4.5rem;
+  margin-top: -5rem;
   margin-left: 2rem;
 }
 
@@ -11060,6 +11055,11 @@ nav {
   font-size: 1.125rem/1.375rem;
   letter-spacing: 0px;
   color: #1B2920;
+}
+
+.img-marche-right {
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -11117,6 +11117,7 @@ nav {
 .btn-commentCaMarche a {
   text-decoration: none;
   color: black;
+  font: Bold 1.5rem/1.813rem Overlock;
 }
 
 .btn-commentCaMarche a:hover {
@@ -11164,6 +11165,11 @@ nav {
   margin-top: 10rem;
 }
 
+.img-encyclopedie-left {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .d-none-mobile {
     display: none;
@@ -11172,7 +11178,7 @@ nav {
     margin-bottom: 5rem;
   }
   .mt-10 {
-    margin-top: 5rem;
+    margin-top: 3rem !important;
   }
 }
 
@@ -11239,7 +11245,7 @@ nav {
   margin-top: -3.5rem;
 }
 
-.mt6 {
+.mt-6 {
   margin-top: 6rem;
 }
 
@@ -11254,6 +11260,7 @@ nav {
 .btn-rs a {
   text-decoration: none;
   color: black;
+  font: Bold 1.5rem/1.813rem Overlock;
 }
 
 @media screen and (max-width: 1200px) {
@@ -11263,6 +11270,12 @@ nav {
   }
   .m-mobile-rs {
     margin: 5rem 0;
+  }
+  .mx-0-mobile {
+    margin: 0  2rem !important;
+  }
+  .img-rs {
+    width: 100%;
   }
 }
 

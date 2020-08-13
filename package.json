@@ -4,8 +4,9 @@
   "description": "Hello ! Welcome to spreading-seeds landing page If you already have nodejs on your computer use the commande line \"npm i\" Otherwise you have to download it. You can find the last version of Nodejs on https://www.nodejs.org",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.5.1",
-    "bootstrap": "^4.5.2"
+    "bootstrap": "^4.5.2",
+    "emailjs": "^3.3.0",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {},
   "scripts": {

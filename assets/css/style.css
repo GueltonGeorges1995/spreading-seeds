@@ -10799,6 +10799,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .logo-size {
   width: 4rem;
 }
@@ -10977,8 +10981,8 @@ nav {
   width: 100px;
 }
 
-.mt-5rem {
-  margin-top: 5rem;
+.pt-5rem {
+  padding-top: 5rem;
 }
 
 .mt--1 {
@@ -10998,6 +11002,10 @@ nav {
   .d-show-mobile {
     display: inline !important;
   }
+}
+
+.pt-5-rem {
+  padding-top: 5rem;
 }
 
 .box-shadow-marche {
@@ -11138,6 +11146,10 @@ nav {
   .mt-0-mobile {
     margin-top: 0;
   }
+}
+
+.pt-5-rem {
+  padding-top: 5rem;
 }
 
 .box-shadow-encyclopedie {
@@ -11286,8 +11298,8 @@ nav {
   }
 }
 
-.mt-5-rem {
-  margin-top: 5rem;
+.pt-5-rem {
+  padding-top: 6rem;
 }
 
 .title-coop {
@@ -11309,6 +11321,10 @@ nav {
     margin-left: 3rem;
     margin-right: 3rem;
   }
+}
+
+.pt-5-rem {
+  padding-top: 6rem;
 }
 
 .title-contact {

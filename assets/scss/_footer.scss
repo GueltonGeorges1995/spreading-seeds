@@ -1,0 +1,47 @@
+.mt-10-rem {
+    margin-top: 10rem;
+}
+
+.bg-footer-salade {
+    background-image: url('../images/Salade-2.svg');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.bg-footer-text {
+    background: #1B2920 0% 0% no-repeat padding-box;
+}
+.footer-link {
+    color: #F0F0F2;
+    text-shadow: 0px 15px 15px #00000033;
+    list-style: none;
+    font: Bold 1.188rem/1.563rem Overlock;
+}
+.footer-link a{
+    color: #F0F0F2;
+    text-shadow: 0px 15px 15px #00000033;
+    list-style: none;
+    font: Bold 1.188rem/1.563rem Overlock;
+    text-decoration: none;
+}
+.title-footer {
+    color: #F0F0F2 !important;
+    text-shadow: 0px 15px 15px #00000033 !important;
+    font: Bold 2rem Overlock;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    .img-text-footer {
+        max-width: 40% !important;
+    }
+    .mt-2-mobile {
+        margin-top: 2rem;
+    }
+    .bg-footer-salade {
+        
+        height: 25vh;
+    }
+}

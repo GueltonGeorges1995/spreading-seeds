@@ -17,8 +17,11 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
-.mt-10 {
-    margin-top: 10rem;
+.mt-7 {
+    margin-top: 7rem;
+}
+.ml--2 {
+    margin-left: -2rem !important;
 }
 
 .img-encyclopedie-left {
@@ -32,7 +35,11 @@
     .mb-5-mobile {
         margin-bottom: 5rem;
     }
-    .mt-10 {
+    .mt-7 {
         margin-top: 3rem !important;
     }
+    .ml--2 {
+        margin-left: 0rem !important;
+    }
+    
 }

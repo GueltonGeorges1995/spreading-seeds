@@ -1,12 +1,16 @@
 .mt-10-rem {
     margin-top: 10rem;
 }
+.mt--1 {
+    margin-top: -0.1rem;
+}
 
 .bg-footer-salade {
-    background-image: url('../images/Salade-2.svg');
-    background-position: center;
+    background-image: url('../images/Salade_fixed.png');
+    background-position: top;
     background-size: cover;
     height: 40vh;
+    border: none;
 }
 .bg-footer-text {
     background: #1B2920 0% 0% no-repeat padding-box;
@@ -27,9 +31,11 @@
 .title-footer {
     color: #F0F0F2 !important;
     text-shadow: 0px 15px 15px #00000033 !important;
-    font: Bold 2rem Overlock;
+    font: Bold 1.8rem Overlock;
 }
-
+.img-text-footer {
+    max-width: 105%;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -43,5 +49,9 @@
     .bg-footer-salade {
         
         height: 25vh;
+    }
+    .mobile-center {
+        text-align: center !important;
+        padding-left: 0rem !important;
     }
 }

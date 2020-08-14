@@ -1,6 +1,6 @@
 // Init le service email.js
 (function(){
-      emailjs.init("user_Oh3MDSKAXr7QKxi8tVi7C");
+      emailjs.init("user_hLavDrkOBJBTqMRum73ew");
    })();
 
 // Selectionne le btn
@@ -10,7 +10,7 @@ const msg = document.querySelector('#msg');
 // Ajout un event
 btn.addEventListener('click',(e)=>{
    e.preventDefault(); // empêche de refresh la pagex
-   emailjs.sendForm('gmail', 'template_LJAhOJLf', '#myForm')
+   emailjs.sendForm('outlook', 'template_50ihSGD9', '#myForm')
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {

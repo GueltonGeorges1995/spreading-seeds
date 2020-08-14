@@ -10898,6 +10898,10 @@ nav {
   padding-left: 12rem;
 }
 
+.ml-5-rem {
+  margin-left: 5rem;
+}
+
 @media screen and (max-width: 1600px) {
   .mr-6 {
     margin-right: 4rem !important;
@@ -10986,7 +10990,7 @@ nav {
 }
 
 .text-icon-apropos {
-  font: Bold 19px/24px Overlock;
+  font: Bold 1.125rem/1.5rem Overlock;
   letter-spacing: 0px;
   color: #1B2920;
 }
@@ -11265,7 +11269,7 @@ nav {
 }
 
 .text-rs {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0px;
   color: #1B2920;
@@ -11315,6 +11319,10 @@ nav {
   text-decoration: none;
   color: black;
   font: Bold 1.5rem/1.813rem Overlock;
+}
+
+.btn-rs a:hover {
+  color: white;
 }
 
 @media screen and (max-width: 1200px) {
@@ -11465,12 +11473,16 @@ nav {
 }
 
 .img-text-footer {
-  max-width: 105%;
+  max-width: 130%;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
 }
 
 @media screen and (max-width: 1200px) {
   .img-text-footer {
     max-width: 40% !important;
+    margin-bottom: 0;
+    margin-right: 0;
   }
   .mt-2-mobile {
     margin-top: 2rem;

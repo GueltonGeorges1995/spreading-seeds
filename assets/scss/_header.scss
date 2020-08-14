@@ -85,6 +85,10 @@ nav {
 .pl-12 {
     padding-left: 12rem;
 }
+
+.ml-5-rem {
+    margin-left: 5rem;
+}
 // enlève les marges dans la navbar
 @media screen and (max-width: 1600px) {
     .mr-6 {

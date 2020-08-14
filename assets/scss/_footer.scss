@@ -34,7 +34,9 @@
     font: Bold 1.8rem Overlock;
 }
 .img-text-footer {
-    max-width: 105%;
+    max-width: 130%;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
 }
 
 
@@ -42,6 +44,8 @@
     
     .img-text-footer {
         max-width: 40% !important;
+        margin-bottom: 0;
+        margin-right: 0;
     }
     .mt-2-mobile {
         margin-top: 2rem;
